@@ -215,8 +215,11 @@
   font-family: var(--ui-block-title-font-family);
   font-size: var(--ui-block-title-size);
   color: var( --ui-block-title-color);
+  margin: 10px auto;
 }
-
+.subtitle{
+  margin: 35px auto 75px;
+}
 .plan__icon-wrapper{
   position: relative;
   background-color: transparent;
@@ -226,6 +229,7 @@
 .plan__title{
   font-size: var(--ui-subtitle-size);
   color: var(--ui-heading-color);
+  margin: 20px auto 35px;
 }
 .plan__icon-wrapper svg {
   max-width: 100%;
@@ -237,7 +241,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -45px;
+  bottom: -40px;
   margin: auto;
   width: 30px;
   height: 3px;
@@ -248,7 +252,9 @@
 .plan--main{
   background: var(--ui-brand-color);
 }
-
+.plan__price{
+  line-height: 1.65;
+}
 .plan__price-count{
   font-size: var(--ui-hero-title-size);
   font-family: var(--ui-block-title-font-family);
@@ -290,7 +296,9 @@
   outline: none;
 }
 
-
+.plan--main .plan__button {
+  margin: 50px auto;
+}
 .plan--main .plan__button{
   color: #323435;
   background: #fff;
