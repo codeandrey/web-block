@@ -182,6 +182,9 @@
 }
 
 /* stylelint-disable */
+.section {
+  padding: 40px 0;
+}
 .title {
   font-family: var(--ui-block-title-font-family);
   font-size: var(--ui-block-title-size);
@@ -192,6 +195,10 @@
   color: #838587;
   font-family: var(--ui-subtitle-font-family);
   font-size: var(--ui-subtitle-size);
+  margin: 35px auto 60px;
+}
+.item__picture {
+  height: 370px;
 }
 .item__text{
   max-width: 250px;
